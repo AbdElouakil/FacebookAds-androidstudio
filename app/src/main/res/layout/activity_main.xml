@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/audience" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#57409B"
+            android:textSize="18sp"
+            android:id="@+id/banner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Banner Ads"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"/>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#57409B"
+            android:textSize="18sp"
+            android:id="@+id/interstitial"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="nterstitial Ads"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"/>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#57409B"
+            android:layout_width="300dp"
+            android:textSize="18sp"
+            android:id="@+id/nativeads"
+            android:layout_height="wrap_content"
+            android:text="Native Ads"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"/>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#57409B"
+            android:textSize="18sp"
+            android:id="@+id/nativebanner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Banner Native Ads"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You get stuck?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@android:color/black"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="2dp"/>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Contact me"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:focusable="true" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FacebookAds</string>
+
+
+    // Change ( IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID ) with your Ads
+
+    <string name="Banner_id">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="Interstitial_id">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="Native_id">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="NativeBanner_id">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+
+</resources>
